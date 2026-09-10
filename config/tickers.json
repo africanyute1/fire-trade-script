@@ -1,0 +1,31 @@
+{
+  "_comment": "Edit this file to change what gets fetched. No code changes needed.",
+  "_symbol_note": "If a ticker fails with 'symbol not found', check the symbol_overrides map below. Twelve Data uses different formats for share classes (BRK.B vs BRK/B).",
+
+  "short_term_holdings": [
+    "XLP", "SPY", "QQQ", "AAPL", "AMZN", "MSFT", "NVDA", "BLK", "BRK.B", "DAL"
+  ],
+
+  "roth_holdings": [
+    "AMZN", "NVDA", "QQQ", "SPY"
+  ],
+
+  "watchlist": [
+    "CAT", "GOOGL", "AMD", "META", "MU", "TSLA", "PLTR", "AVGO"
+  ],
+
+  "benchmark": "SPY",
+
+  "symbol_overrides": {
+    "BRK.B": "BRK.B"
+  },
+
+  "validation_sample": ["AAPL", "QQQ"],
+
+  "settings": {
+    "outputsize": 300,
+    "cmf_period": 20,
+    "seconds_between_calls": 8.5,
+    "max_retries": 3
+  }
+}
