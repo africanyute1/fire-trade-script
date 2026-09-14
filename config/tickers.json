@@ -1,5 +1,5 @@
 {
-  "_comment": "Edit this file to change what gets fetched. No code changes needed.",
+  "_comment": "Edit this file to change what gets fetched. Adding a NEW group key also requires a code change in scripts/fetch_market_data.py (build_universe + load_config + payload groups).",
   "_symbol_note": "If a ticker fails with 'symbol not found', check the symbol_overrides map below. Twelve Data uses different formats for share classes (BRK.B vs BRK/B).",
 
   "short_term_holdings": [
@@ -11,7 +11,11 @@
   ],
 
   "watchlist": [
-    "CAT", "GOOGL", "META", "MU", "TSLA", "PLTR", "AVGO"
+    "GOOGL", "META", "MU", "TSLA", "PLTR", "AVGO", "SMH"
+  ],
+
+  "watchlist_long": [
+    "CAT", "SCHD"
   ],
 
   "benchmark": "SPY",
