@@ -39,6 +39,8 @@ data/latest.md                            human-readable summary
 data/history/YYYY-MM-DD.json              dated archive
 ```
 
+The universe is 20 tickers drawn from four group lists in `config/tickers.json` — `short_term_holdings`, `roth_holdings`, `watchlist` and `watchlist_long`. Adding a new group key also requires a matching code change in `scripts/fetch_market_data.py`.
+
 No dependencies. Python 3.11 standard library only.
 
 ## Running locally

@@ -93,13 +93,25 @@ def load_config():
     if missing:
         error(f"config/tickers.json missing required keys: {missing}")
         sys.exit(1)
+
+    # Optional ticker groups. Present-but-wrong-type must fail loudly here:
+    # build_universe() would otherwise iterate a string character by character.
+    for key in ("watchlist_long",):
+        if key in cfg and not isinstance(cfg[key], list):
+            error(f"config/tickers.json key '{key}' must be a list, "
+                  f"got {type(cfg[key]).__name__}")
+            sys.exit(1)
+
+    debug("config groups: " + ", ".join(
+        f"{k}={len(cfg.get(k, []))}"
+        for k in ("short_term_holdings", "roth_holdings", "watchlist", "watchlist_long")))
     return cfg
 
 
 def build_universe(cfg):
     """Union of all ticker lists, de-duplicated, order preserved."""
     seen, out = set(), []
-    for key in ("short_term_holdings", "roth_holdings", "watchlist"):
+    for key in ("short_term_holdings", "roth_holdings", "watchlist", "watchlist_long"):
         for t in cfg.get(key, []):
             if t not in seen:
                 seen.add(t)
@@ -570,6 +582,7 @@ def main():
             "short_term_holdings": cfg["short_term_holdings"],
             "roth_holdings": cfg["roth_holdings"],
             "watchlist": cfg["watchlist"],
+            "watchlist_long": cfg.get("watchlist_long", []),
             "benchmark": cfg.get("benchmark"),
         },
         "validation": validation,
