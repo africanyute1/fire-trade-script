@@ -3,7 +3,7 @@
   "_symbol_note": "If a ticker fails with 'symbol not found', check the symbol_overrides map below. Twelve Data uses different formats for share classes (BRK.B vs BRK/B).",
 
   "short_term_holdings": [
-    "SPY", "QQQ", "AAPL", "AMZN", "MSFT", "NVDA", "BLK", "BRK.B", "AMD", "INTC"
+    "SPY", "QQQ", "AAPL", "AMZN", "MSFT", "NVDA", "BLK", "BRK.B", "AMD", "INTC", "UNH"
   ],
 
   "roth_holdings": [
