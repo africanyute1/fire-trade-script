@@ -7,16 +7,14 @@
   ],
 
   "roth_holdings": [
-    "AMZN", "NVDA", "QQQ", "SPY", "CAT"
+    "AMZN", "NVDA", "QQQ", "SPY", "CAT", "SCHD"
   ],
 
   "watchlist": [
     "GOOGL", "META", "MU", "TSLA", "PLTR", "AVGO", "SMH"
   ],
 
-  "watchlist_long": [
-    "SCHD"
-  ],
+  "watchlist_long": [],
 
   "benchmark": "SPY",
 
