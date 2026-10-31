@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-31T01:32:49+00:00",
+  "generated_utc": "2026-10-31T15:15:25+00:00",
   "source": "Twelve Data API (api.twelvedata.com) via GitHub Actions",
   "schema_version": 1,
   "summary": {
@@ -66,8 +66,8 @@
         {
           "indicator": "ad",
           "status": "ok",
-          "our_direction_20d": "falling",
-          "their_direction_20d": "falling",
+          "our_direction_20d": "rising",
+          "their_direction_20d": "rising",
           "agree": true
         }
       ],
@@ -101,7 +101,7 @@
       "oldest_bar": "2025-08-22",
       "latest_bar": "2026-10-30",
       "price": 755.72,
-      "latest_volume": 77142196,
+      "latest_volume": 77625800,
       "moving_averages": {
         "sma_20": 770.468,
         "price_vs_sma_20_pct": -1.91,
@@ -113,55 +113,55 @@
         "price_vs_sma_200_pct": 3.69
       },
       "average_volumes": {
-        "avg_volume_5": 41589019,
-        "avg_volume_20": 39199580,
-        "avg_volume_50": 41141354,
-        "avg_volume_100": 46254495
+        "avg_volume_5": 41685740,
+        "avg_volume_20": 39223760,
+        "avg_volume_50": 41151026,
+        "avg_volume_100": 46259331
       },
-      "volume_vs_20week_avg": 1.668,
-      "volume_vs_20day_avg": 1.968,
+      "volume_vs_20week_avg": 1.678,
+      "volume_vs_20day_avg": 1.979,
       "volume_spike_1_5x": true,
       "obv": {
         "note": "cumulative from arbitrary start; level is meaningless, use direction only",
-        "latest_value": 350562304,
+        "latest_value": 350078700,
         "direction_20d": {
           "label": "falling",
-          "change": -98079196,
+          "change": -98562800,
           "lookback_days": 20
         },
         "direction_60d": {
           "label": "falling",
-          "change": -490849596,
+          "change": -491333200,
           "lookback_days": 60
         },
         "direction_120d": {
           "label": "falling",
-          "change": -451494296,
+          "change": -451977900,
           "lookback_days": 120
         }
       },
       "accumulation_distribution": {
         "note": "cumulative from arbitrary start; level is meaningless, use direction only",
-        "latest_value": 1359571434.18,
+        "latest_value": 1359554875.37,
         "direction_20d": {
           "label": "rising",
-          "change": 36054857.55,
+          "change": 36038298.73,
           "lookback_days": 20
         },
         "direction_60d": {
           "label": "falling",
-          "change": -88097223.46,
+          "change": -88113782.28,
           "lookback_days": 60
         },
         "direction_120d": {
           "label": "rising",
-          "change": 81479760.81,
+          "change": 81463201.99,
           "lookback_days": 120
         }
       },
       "cmf": {
         "period": 20,
-        "value": 0.045989,
+        "value": 0.045939,
         "sign": "positive",
         "note": "bounded ~-1..+1; comparable across tickers"
       }
@@ -172,7 +172,7 @@
       "oldest_bar": "2025-08-22",
       "latest_bar": "2026-10-30",
       "price": 690.49,
-      "latest_volume": 84754440,
+      "latest_volume": 85108900,
       "moving_averages": {
         "sma_20": 728.1875,
         "price_vs_sma_20_pct": -5.18,
@@ -184,55 +184,55 @@
         "price_vs_sma_200_pct": 1.61
       },
       "average_volumes": {
-        "avg_volume_5": 43513408,
-        "avg_volume_20": 39200167,
-        "avg_volume_50": 35197491,
-        "avg_volume_100": 38571479
+        "avg_volume_5": 43584300,
+        "avg_volume_20": 39217890,
+        "avg_volume_50": 35204580,
+        "avg_volume_100": 38575024
       },
-      "volume_vs_20week_avg": 2.197,
-      "volume_vs_20day_avg": 2.162,
+      "volume_vs_20week_avg": 2.206,
+      "volume_vs_20day_avg": 2.17,
       "volume_spike_1_5x": true,
       "obv": {
         "note": "cumulative from arbitrary start; level is meaningless, use direction only",
-        "latest_value": 403568060,
+        "latest_value": 403213600,
         "direction_20d": {
           "label": "falling",
-          "change": -308977940,
+          "change": -309332400,
           "lookback_days": 20
         },
         "direction_60d": {
           "label": "falling",
-          "change": -183582840,
+          "change": -183937300,
           "lookback_days": 60
         },
         "direction_120d": {
           "label": "falling",
-          "change": -476839240,
+          "change": -477193700,
           "lookback_days": 120
         }
       },
       "accumulation_distribution": {
         "note": "cumulative from arbitrary start; level is meaningless, use direction only",
-        "latest_value": 1260813621.54,
+        "latest_value": 1260787935.32,
         "direction_20d": {
           "label": "falling",
-          "change": -16245575.34,
+          "change": -16271261.57,
           "lookback_days": 20
         },
         "direction_60d": {
           "label": "rising",
-          "change": 72279018.44,
+          "change": 72253332.22,
           "lookback_days": 60
         },
         "direction_120d": {
           "label": "rising",
-          "change": 188181209.99,
+          "change": 188155523.77,
           "lookback_days": 120
         }
       },
       "cmf": {
         "period": 20,
-        "value": -0.020721,
+        "value": -0.020745,
         "sign": "negative",
         "note": "bounded ~-1..+1; comparable across tickers"
       }
@@ -243,7 +243,7 @@
       "oldest_bar": "2025-08-22",
       "latest_bar": "2026-10-30",
       "price": 344.63,
-      "latest_volume": 67842804,
+      "latest_volume": 67797500,
       "moving_averages": {
         "sma_20": 342.0835,
         "price_vs_sma_20_pct": 0.74,
@@ -255,56 +255,56 @@
         "price_vs_sma_200_pct": 16.21
       },
       "average_volumes": {
-        "avg_volume_5": 45773441,
-        "avg_volume_20": 40410755,
-        "avg_volume_50": 40617158,
-        "avg_volume_100": 48770836
+        "avg_volume_5": 45764380,
+        "avg_volume_20": 40408490,
+        "avg_volume_50": 40616252,
+        "avg_volume_100": 48770383
       },
-      "volume_vs_20week_avg": 1.391,
-      "volume_vs_20day_avg": 1.679,
+      "volume_vs_20week_avg": 1.39,
+      "volume_vs_20day_avg": 1.678,
       "volume_spike_1_5x": false,
       "obv": {
         "note": "cumulative from arbitrary start; level is meaningless, use direction only",
-        "latest_value": 1430333896,
+        "latest_value": 1430379200,
         "direction_20d": {
           "label": "rising",
-          "change": 71586296,
+          "change": 71631600,
           "lookback_days": 20
         },
         "direction_60d": {
           "label": "rising",
-          "change": 156453396,
+          "change": 156498700,
           "lookback_days": 60
         },
         "direction_120d": {
           "label": "rising",
-          "change": 621478196,
+          "change": 621523500,
           "lookback_days": 120
         }
       },
       "accumulation_distribution": {
         "note": "cumulative from arbitrary start; level is meaningless, use direction only",
-        "latest_value": 919010838.01,
+        "latest_value": 967757400.21,
         "direction_20d": {
-          "label": "falling",
-          "change": -48687365.59,
+          "label": "rising",
+          "change": 59196.61,
           "lookback_days": 20
         },
         "direction_60d": {
           "label": "rising",
-          "change": 101794824.68,
+          "change": 150541386.88,
           "lookback_days": 60
         },
         "direction_120d": {
           "label": "rising",
-          "change": 469053386.91,
+          "change": 517799949.11,
           "lookback_days": 120
         }
       },
       "cmf": {
         "period": 20,
-        "value": -0.060241,
-        "sign": "negative",
+        "value": 7.3e-05,
+        "sign": "positive",
         "note": "bounded ~-1..+1; comparable across tickers"
       }
     },
@@ -314,7 +314,7 @@
       "oldest_bar": "2025-08-22",
       "latest_bar": "2026-10-30",
       "price": 240.35,
-      "latest_volume": 104652185,
+      "latest_volume": 104775800,
       "moving_averages": {
         "sma_20": 254.3905,
         "price_vs_sma_20_pct": -5.52,
@@ -326,55 +326,55 @@
         "price_vs_sma_200_pct": -1.25
       },
       "average_volumes": {
-        "avg_volume_5": 58395337,
-        "avg_volume_20": 41671034,
-        "avg_volume_50": 37241950,
-        "avg_volume_100": 44411053
+        "avg_volume_5": 58420060,
+        "avg_volume_20": 41677215,
+        "avg_volume_50": 37244422,
+        "avg_volume_100": 44412289
       },
-      "volume_vs_20week_avg": 2.356,
-      "volume_vs_20day_avg": 2.511,
+      "volume_vs_20week_avg": 2.359,
+      "volume_vs_20day_avg": 2.514,
       "volume_spike_1_5x": true,
       "obv": {
         "note": "cumulative from arbitrary start; level is meaningless, use direction only",
-        "latest_value": 415956715,
+        "latest_value": 415833100,
         "direction_20d": {
           "label": "falling",
-          "change": -167646885,
+          "change": -167770500,
           "lookback_days": 20
         },
         "direction_60d": {
           "label": "falling",
-          "change": -403027385,
+          "change": -403151000,
           "lookback_days": 60
         },
         "direction_120d": {
           "label": "falling",
-          "change": -338380085,
+          "change": -338503700,
           "lookback_days": 120
         }
       },
       "accumulation_distribution": {
         "note": "cumulative from arbitrary start; level is meaningless, use direction only",
-        "latest_value": -40113593.54,
+        "latest_value": -40008905.8,
         "direction_20d": {
           "label": "rising",
-          "change": 79959058.62,
+          "change": 80063746.36,
           "lookback_days": 20
         },
         "direction_60d": {
           "label": "rising",
-          "change": 12229566.98,
+          "change": 12334254.72,
           "lookback_days": 60
         },
         "direction_120d": {
           "label": "falling",
-          "change": -98963691.96,
+          "change": -98859004.22,
           "lookback_days": 120
         }
       },
       "cmf": {
         "period": 20,
-        "value": 0.095941,
+        "value": 0.096052,
         "sign": "positive",
         "note": "bounded ~-1..+1; comparable across tickers"
       }
@@ -385,7 +385,7 @@
       "oldest_bar": "2025-08-22",
       "latest_bar": "2026-10-30",
       "price": 521.91,
-      "latest_volume": 35585367,
+      "latest_volume": 35618300,
       "moving_averages": {
         "sma_20": 530.981,
         "price_vs_sma_20_pct": -1.71,
@@ -397,55 +397,55 @@
         "price_vs_sma_200_pct": 19.18
       },
       "average_volumes": {
-        "avg_volume_5": 28413213,
-        "avg_volume_20": 22011753,
-        "avg_volume_50": 21819347,
-        "avg_volume_100": 30972256
+        "avg_volume_5": 28419800,
+        "avg_volume_20": 22013400,
+        "avg_volume_50": 21820006,
+        "avg_volume_100": 30972585
       },
-      "volume_vs_20week_avg": 1.149,
-      "volume_vs_20day_avg": 1.617,
+      "volume_vs_20week_avg": 1.15,
+      "volume_vs_20day_avg": 1.618,
       "volume_spike_1_5x": false,
       "obv": {
         "note": "cumulative from arbitrary start; level is meaningless, use direction only",
-        "latest_value": 174684133,
+        "latest_value": 174651200,
         "direction_20d": {
           "label": "falling",
-          "change": -12337667,
+          "change": -12370600,
           "lookback_days": 20
         },
         "direction_60d": {
           "label": "rising",
-          "change": 74482333,
+          "change": 74449400,
           "lookback_days": 60
         },
         "direction_120d": {
           "label": "rising",
-          "change": 499461233,
+          "change": 499428300,
           "lookback_days": 120
         }
       },
       "accumulation_distribution": {
         "note": "cumulative from arbitrary start; level is meaningless, use direction only",
-        "latest_value": 236392541.23,
+        "latest_value": 236402350.33,
         "direction_20d": {
           "label": "rising",
-          "change": 2544490.92,
+          "change": 2554300.02,
           "lookback_days": 20
         },
         "direction_60d": {
           "label": "falling",
-          "change": -2661713.93,
+          "change": -2651904.83,
           "lookback_days": 60
         },
         "direction_120d": {
           "label": "rising",
-          "change": 157491153.65,
+          "change": 157500962.75,
           "lookback_days": 120
         }
       },
       "cmf": {
         "period": 20,
-        "value": 0.00578,
+        "value": 0.005802,
         "sign": "positive",
         "note": "bounded ~-1..+1; comparable across tickers"
       }
@@ -456,7 +456,7 @@
       "oldest_bar": "2025-08-22",
       "latest_bar": "2026-10-30",
       "price": 204.64,
-      "latest_volume": 165923799,
+      "latest_volume": 168039400,
       "moving_averages": {
         "sma_20": 221.4595,
         "price_vs_sma_20_pct": -7.59,
@@ -468,55 +468,55 @@
         "price_vs_sma_200_pct": 0.12
       },
       "average_volumes": {
-        "avg_volume_5": 102430220,
-        "avg_volume_20": 100945725,
-        "avg_volume_50": 115495412,
-        "avg_volume_100": 123041776
+        "avg_volume_5": 102853340,
+        "avg_volume_20": 101051505,
+        "avg_volume_50": 115537724,
+        "avg_volume_100": 123062932
       },
-      "volume_vs_20week_avg": 1.349,
-      "volume_vs_20day_avg": 1.644,
+      "volume_vs_20week_avg": 1.365,
+      "volume_vs_20day_avg": 1.663,
       "volume_spike_1_5x": false,
       "obv": {
         "note": "cumulative from arbitrary start; level is meaningless, use direction only",
-        "latest_value": 551514501,
+        "latest_value": 549398900,
         "direction_20d": {
           "label": "falling",
-          "change": -670295099,
+          "change": -672410700,
           "lookback_days": 20
         },
         "direction_60d": {
           "label": "falling",
-          "change": -320695999,
+          "change": -322811600,
           "lookback_days": 60
         },
         "direction_120d": {
           "label": "falling",
-          "change": -929142299,
+          "change": -931257900,
           "lookback_days": 120
         }
       },
       "accumulation_distribution": {
         "note": "cumulative from arbitrary start; level is meaningless, use direction only",
-        "latest_value": -957934855.76,
+        "latest_value": -958305223.67,
         "direction_20d": {
           "label": "falling",
-          "change": -287528545.32,
+          "change": -287898913.22,
           "lookback_days": 20
         },
         "direction_60d": {
           "label": "falling",
-          "change": -1218283278.44,
+          "change": -1218653646.35,
           "lookback_days": 60
         },
         "direction_120d": {
           "label": "falling",
-          "change": -1302125314.73,
+          "change": -1302495682.64,
           "lookback_days": 120
         }
       },
       "cmf": {
         "period": 20,
-        "value": -0.142417,
+        "value": -0.142452,
         "sign": "negative",
         "note": "bounded ~-1..+1; comparable across tickers"
       }
@@ -527,7 +527,7 @@
       "oldest_bar": "2025-08-22",
       "latest_bar": "2026-10-30",
       "price": 1147.54,
-      "latest_volume": 644598,
+      "latest_volume": 644700,
       "moving_averages": {
         "sma_20": 1112.301,
         "price_vs_sma_20_pct": 3.17,
@@ -539,55 +539,55 @@
         "price_vs_sma_200_pct": 7.89
       },
       "average_volumes": {
-        "avg_volume_5": 580100,
-        "avg_volume_20": 687445,
-        "avg_volume_50": 609700,
-        "avg_volume_100": 688761
+        "avg_volume_5": 580120,
+        "avg_volume_20": 687450,
+        "avg_volume_50": 609702,
+        "avg_volume_100": 688762
       },
       "volume_vs_20week_avg": 0.936,
       "volume_vs_20day_avg": 0.938,
       "volume_spike_1_5x": false,
       "obv": {
         "note": "cumulative from arbitrary start; level is meaningless, use direction only",
-        "latest_value": 1117902,
+        "latest_value": 1117800,
         "direction_20d": {
           "label": "rising",
-          "change": 5338302,
+          "change": 5338200,
           "lookback_days": 20
         },
         "direction_60d": {
           "label": "rising",
-          "change": 1359002,
+          "change": 1358900,
           "lookback_days": 60
         },
         "direction_120d": {
           "label": "rising",
-          "change": 803102,
+          "change": 803000,
           "lookback_days": 120
         }
       },
       "accumulation_distribution": {
         "note": "cumulative from arbitrary start; level is meaningless, use direction only",
-        "latest_value": -7918261.36,
+        "latest_value": -7938976.75,
         "direction_20d": {
           "label": "rising",
-          "change": 657625.56,
+          "change": 636910.17,
           "lookback_days": 20
         },
         "direction_60d": {
           "label": "falling",
-          "change": -1461730.49,
+          "change": -1482445.88,
           "lookback_days": 60
         },
         "direction_120d": {
           "label": "falling",
-          "change": -7785335.15,
+          "change": -7806050.54,
           "lookback_days": 120
         }
       },
       "cmf": {
         "period": 20,
-        "value": 0.047831,
+        "value": 0.046324,
         "sign": "positive",
         "note": "bounded ~-1..+1; comparable across tickers"
       }
@@ -598,7 +598,7 @@
       "oldest_bar": "2025-08-22",
       "latest_bar": "2026-10-30",
       "price": 542.49,
-      "latest_volume": 4480941,
+      "latest_volume": 4487100,
       "moving_averages": {
         "sma_20": 529.075,
         "price_vs_sma_20_pct": 2.54,
@@ -610,55 +610,55 @@
         "price_vs_sma_200_pct": 9.43
       },
       "average_volumes": {
-        "avg_volume_5": 3940228,
-        "avg_volume_20": 4285002,
-        "avg_volume_50": 4425653,
-        "avg_volume_100": 4519944
+        "avg_volume_5": 3941460,
+        "avg_volume_20": 4285310,
+        "avg_volume_50": 4425776,
+        "avg_volume_100": 4520006
       },
-      "volume_vs_20week_avg": 0.991,
-      "volume_vs_20day_avg": 1.046,
+      "volume_vs_20week_avg": 0.993,
+      "volume_vs_20day_avg": 1.047,
       "volume_spike_1_5x": false,
       "obv": {
         "note": "cumulative from arbitrary start; level is meaningless, use direction only",
-        "latest_value": 22119441,
+        "latest_value": 22125600,
         "direction_20d": {
           "label": "rising",
-          "change": 45751641,
+          "change": 45757800,
           "lookback_days": 20
         },
         "direction_60d": {
           "label": "rising",
-          "change": 42000041,
+          "change": 42006200,
           "lookback_days": 60
         },
         "direction_120d": {
           "label": "rising",
-          "change": 57640941,
+          "change": 57647100,
           "lookback_days": 120
         }
       },
       "accumulation_distribution": {
         "note": "cumulative from arbitrary start; level is meaningless, use direction only",
-        "latest_value": -11697660.36,
+        "latest_value": -11707543.86,
         "direction_20d": {
           "label": "rising",
-          "change": 3113387.2,
+          "change": 3103503.69,
           "lookback_days": 20
         },
         "direction_60d": {
           "label": "falling",
-          "change": -12065957.24,
+          "change": -12075840.74,
           "lookback_days": 60
         },
         "direction_120d": {
           "label": "rising",
-          "change": 2358792.71,
+          "change": 2348909.21,
           "lookback_days": 120
         }
       },
       "cmf": {
         "period": 20,
-        "value": 0.036329,
+        "value": 0.036211,
         "sign": "positive",
         "note": "bounded ~-1..+1; comparable across tickers"
       }
@@ -669,7 +669,7 @@
       "oldest_bar": "2025-08-22",
       "latest_bar": "2026-10-30",
       "price": 504.8,
-      "latest_volume": 39527010,
+      "latest_volume": 39589800,
       "moving_averages": {
         "sma_20": 570.4405,
         "price_vs_sma_20_pct": -11.51,
@@ -681,55 +681,55 @@
         "price_vs_sma_200_pct": 22.98
       },
       "average_volumes": {
-        "avg_volume_5": 22529122,
-        "avg_volume_20": 20500220,
-        "avg_volume_50": 20313494,
-        "avg_volume_100": 24289923
+        "avg_volume_5": 22541680,
+        "avg_volume_20": 20503360,
+        "avg_volume_50": 20314750,
+        "avg_volume_100": 24290551
       },
-      "volume_vs_20week_avg": 1.627,
-      "volume_vs_20day_avg": 1.928,
+      "volume_vs_20week_avg": 1.63,
+      "volume_vs_20day_avg": 1.931,
       "volume_spike_1_5x": true,
       "obv": {
         "note": "cumulative from arbitrary start; level is meaningless, use direction only",
-        "latest_value": 1156883490,
+        "latest_value": 1156820700,
         "direction_20d": {
           "label": "falling",
-          "change": -106404210,
+          "change": -106467000,
           "lookback_days": 20
         },
         "direction_60d": {
           "label": "rising",
-          "change": 111739290,
+          "change": 111676500,
           "lookback_days": 60
         },
         "direction_120d": {
           "label": "rising",
-          "change": 36686790,
+          "change": 36624000,
           "lookback_days": 120
         }
       },
       "accumulation_distribution": {
         "note": "cumulative from arbitrary start; level is meaningless, use direction only",
-        "latest_value": 624573844.83,
+        "latest_value": 624608248.67,
         "direction_20d": {
           "label": "rising",
-          "change": 26128529.23,
+          "change": 26162933.08,
           "lookback_days": 20
         },
         "direction_60d": {
           "label": "rising",
-          "change": 159528367.94,
+          "change": 159562771.79,
           "lookback_days": 60
         },
         "direction_120d": {
           "label": "rising",
-          "change": 333268966.93,
+          "change": 333303370.78,
           "lookback_days": 120
         }
       },
       "cmf": {
         "period": 20,
-        "value": 0.063727,
+        "value": 0.063802,
         "sign": "positive",
         "note": "bounded ~-1..+1; comparable across tickers"
       }
@@ -740,7 +740,7 @@
       "oldest_bar": "2025-08-22",
       "latest_bar": "2026-10-30",
       "price": 65.76,
-      "latest_volume": 450884426,
+      "latest_volume": 454221300,
       "moving_averages": {
         "sma_20": 96.3895,
         "price_vs_sma_20_pct": -31.78,
@@ -752,55 +752,55 @@
         "price_vs_sma_200_pct": -24.3
       },
       "average_volumes": {
-        "avg_volume_5": 171382605,
-        "avg_volume_20": 116144676,
-        "avg_volume_50": 107579147,
-        "avg_volume_100": 113490474
+        "avg_volume_5": 172049980,
+        "avg_volume_20": 116311520,
+        "avg_volume_50": 107645884,
+        "avg_volume_100": 113523843
       },
-      "volume_vs_20week_avg": 3.973,
-      "volume_vs_20day_avg": 3.882,
+      "volume_vs_20week_avg": 4.001,
+      "volume_vs_20day_avg": 3.905,
       "volume_spike_1_5x": true,
       "obv": {
         "note": "cumulative from arbitrary start; level is meaningless, use direction only",
-        "latest_value": 2048959074,
+        "latest_value": 2045622200,
         "direction_20d": {
           "label": "falling",
-          "change": -938407326,
+          "change": -941744200,
           "lookback_days": 20
         },
         "direction_60d": {
           "label": "falling",
-          "change": -559138326,
+          "change": -562475200,
           "lookback_days": 60
         },
         "direction_120d": {
           "label": "falling",
-          "change": -1996868526,
+          "change": -2000205400,
           "lookback_days": 120
         }
       },
       "accumulation_distribution": {
         "note": "cumulative from arbitrary start; level is meaningless, use direction only",
-        "latest_value": 807763334.46,
+        "latest_value": 807502497.6,
         "direction_20d": {
           "label": "falling",
-          "change": -286530205.58,
+          "change": -286791042.43,
           "lookback_days": 20
         },
         "direction_60d": {
           "label": "falling",
-          "change": -49670311.32,
+          "change": -49931148.18,
           "lookback_days": 60
         },
         "direction_120d": {
           "label": "falling",
-          "change": -266456415.89,
+          "change": -266717252.75,
           "lookback_days": 120
         }
       },
       "cmf": {
         "period": 20,
-        "value": -0.123351,
+        "value": -0.123286,
         "sign": "negative",
         "note": "bounded ~-1..+1; comparable across tickers"
       }
@@ -811,7 +811,7 @@
       "oldest_bar": "2025-08-22",
       "latest_bar": "2026-10-30",
       "price": 406.97,
-      "latest_volume": 4296307,
+      "latest_volume": 4298400,
       "moving_averages": {
         "sma_20": 398.6705,
         "price_vs_sma_20_pct": 2.08,
@@ -823,55 +823,55 @@
         "price_vs_sma_200_pct": 12.19
       },
       "average_volumes": {
-        "avg_volume_5": 4063441,
-        "avg_volume_20": 6063285,
-        "avg_volume_50": 5261292,
-        "avg_volume_100": 5388605
+        "avg_volume_5": 4063860,
+        "avg_volume_20": 6063390,
+        "avg_volume_50": 5261334,
+        "avg_volume_100": 5388626
       },
-      "volume_vs_20week_avg": 0.797,
+      "volume_vs_20week_avg": 0.798,
       "volume_vs_20day_avg": 0.709,
       "volume_spike_1_5x": false,
       "obv": {
         "note": "cumulative from arbitrary start; level is meaningless, use direction only",
-        "latest_value": -24257207,
+        "latest_value": -24259300,
         "direction_20d": {
           "label": "falling",
-          "change": -16785507,
+          "change": -16787600,
           "lookback_days": 20
         },
         "direction_60d": {
           "label": "falling",
-          "change": -34457107,
+          "change": -34459200,
           "lookback_days": 60
         },
         "direction_120d": {
           "label": "falling",
-          "change": -33947807,
+          "change": -33949900,
           "lookback_days": 120
         }
       },
       "accumulation_distribution": {
         "note": "cumulative from arbitrary start; level is meaningless, use direction only",
-        "latest_value": 4340832.86,
+        "latest_value": 4339174.88,
         "direction_20d": {
           "label": "falling",
-          "change": -7071753.27,
+          "change": -7073411.26,
           "lookback_days": 20
         },
         "direction_60d": {
           "label": "falling",
-          "change": -26854017.05,
+          "change": -26855675.03,
           "lookback_days": 60
         },
         "direction_120d": {
           "label": "falling",
-          "change": -36072296.5,
+          "change": -36073954.49,
           "lookback_days": 120
         }
       },
       "cmf": {
         "period": 20,
-        "value": -0.058316,
+        "value": -0.058329,
         "sign": "negative",
         "note": "bounded ~-1..+1; comparable across tickers"
       }
@@ -882,7 +882,7 @@
       "oldest_bar": "2025-08-22",
       "latest_bar": "2026-10-30",
       "price": 622.75,
-      "latest_volume": 5138237,
+      "latest_volume": 5300400,
       "moving_averages": {
         "sma_20": 744.042,
         "price_vs_sma_20_pct": -16.3,
@@ -894,55 +894,55 @@
         "price_vs_sma_200_pct": -23.11
       },
       "average_volumes": {
-        "avg_volume_5": 4306527,
-        "avg_volume_20": 3174002,
-        "avg_volume_50": 2660935,
-        "avg_volume_100": 3022134
+        "avg_volume_5": 4338960,
+        "avg_volume_20": 3182110,
+        "avg_volume_50": 2664178,
+        "avg_volume_100": 3023756
       },
-      "volume_vs_20week_avg": 1.7,
-      "volume_vs_20day_avg": 1.619,
+      "volume_vs_20week_avg": 1.753,
+      "volume_vs_20day_avg": 1.666,
       "volume_spike_1_5x": true,
       "obv": {
         "note": "cumulative from arbitrary start; level is meaningless, use direction only",
-        "latest_value": 27651763,
+        "latest_value": 27489600,
         "direction_20d": {
           "label": "falling",
-          "change": -29760837,
+          "change": -29923000,
           "lookback_days": 20
         },
         "direction_60d": {
           "label": "falling",
-          "change": -30707537,
+          "change": -30869700,
           "lookback_days": 60
         },
         "direction_120d": {
           "label": "falling",
-          "change": -38509737,
+          "change": -38671900,
           "lookback_days": 120
         }
       },
       "accumulation_distribution": {
         "note": "cumulative from arbitrary start; level is meaningless, use direction only",
-        "latest_value": 22544037.34,
+        "latest_value": 22475750.35,
         "direction_20d": {
           "label": "falling",
-          "change": -5575579.54,
+          "change": -5643866.52,
           "lookback_days": 20
         },
         "direction_60d": {
           "label": "falling",
-          "change": -8688578.29,
+          "change": -8756865.28,
           "lookback_days": 60
         },
         "direction_120d": {
           "label": "falling",
-          "change": -20712880.67,
+          "change": -20781167.66,
           "lookback_days": 120
         }
       },
       "cmf": {
         "period": 20,
-        "value": -0.087832,
+        "value": -0.088681,
         "sign": "negative",
         "note": "bounded ~-1..+1; comparable across tickers"
       }
@@ -953,7 +953,7 @@
       "oldest_bar": "2025-08-22",
       "latest_bar": "2026-10-30",
       "price": 35.78,
-      "latest_volume": 27716045,
+      "latest_volume": 27764500,
       "moving_averages": {
         "sma_20": 34.218,
         "price_vs_sma_20_pct": 4.56,
@@ -965,55 +965,55 @@
         "price_vs_sma_200_pct": 10.6
       },
       "average_volumes": {
-        "avg_volume_5": 23982749,
-        "avg_volume_20": 22928182,
-        "avg_volume_50": 23034863,
-        "avg_volume_100": 22489146
+        "avg_volume_5": 23992440,
+        "avg_volume_20": 22930605,
+        "avg_volume_50": 23035832,
+        "avg_volume_100": 22489631
       },
-      "volume_vs_20week_avg": 1.232,
-      "volume_vs_20day_avg": 1.209,
+      "volume_vs_20week_avg": 1.235,
+      "volume_vs_20day_avg": 1.211,
       "volume_spike_1_5x": false,
       "obv": {
         "note": "cumulative from arbitrary start; level is meaningless, use direction only",
-        "latest_value": 248610545,
+        "latest_value": 248659000,
         "direction_20d": {
           "label": "rising",
-          "change": 144864445,
+          "change": 144912900,
           "lookback_days": 20
         },
         "direction_60d": {
           "label": "rising",
-          "change": 117499445,
+          "change": 117547900,
           "lookback_days": 60
         },
         "direction_120d": {
           "label": "rising",
-          "change": 216009945,
+          "change": 216058400,
           "lookback_days": 120
         }
       },
       "accumulation_distribution": {
         "note": "cumulative from arbitrary start; level is meaningless, use direction only",
-        "latest_value": 30251683.89,
+        "latest_value": 30190872.97,
         "direction_20d": {
           "label": "rising",
-          "change": 125954726.04,
+          "change": 125893915.12,
           "lookback_days": 20
         },
         "direction_60d": {
           "label": "rising",
-          "change": 23367959.6,
+          "change": 23307148.68,
           "lookback_days": 60
         },
         "direction_120d": {
           "label": "falling",
-          "change": -75055378.5,
+          "change": -75116189.42,
           "lookback_days": 120
         }
       },
       "cmf": {
         "period": 20,
-        "value": 0.274672,
+        "value": 0.274511,
         "sign": "positive",
         "note": "bounded ~-1..+1; comparable across tickers"
       }
@@ -1024,7 +1024,7 @@
       "oldest_bar": "2025-08-22",
       "latest_bar": "2026-10-30",
       "price": 279.84,
-      "latest_volume": 65326584,
+      "latest_volume": 65520500,
       "moving_averages": {
         "sma_20": 333.9065,
         "price_vs_sma_20_pct": -16.19,
@@ -1036,55 +1036,55 @@
         "price_vs_sma_200_pct": -17.85
       },
       "average_volumes": {
-        "avg_volume_5": 64159757,
-        "avg_volume_20": 32986514,
-        "avg_volume_50": 28886132,
-        "avg_volume_100": 30230181
+        "avg_volume_5": 64198540,
+        "avg_volume_20": 32996210,
+        "avg_volume_50": 28890010,
+        "avg_volume_100": 30232120
       },
-      "volume_vs_20week_avg": 2.161,
-      "volume_vs_20day_avg": 1.98,
+      "volume_vs_20week_avg": 2.167,
+      "volume_vs_20day_avg": 1.986,
       "volume_spike_1_5x": true,
       "obv": {
         "note": "cumulative from arbitrary start; level is meaningless, use direction only",
-        "latest_value": 35834236,
+        "latest_value": 35640320,
         "direction_20d": {
           "label": "falling",
-          "change": -144326284,
+          "change": -144520200,
           "lookback_days": 20
         },
         "direction_60d": {
           "label": "falling",
-          "change": -173396284,
+          "change": -173590200,
           "lookback_days": 60
         },
         "direction_120d": {
           "label": "falling",
-          "change": -527147084,
+          "change": -527341000,
           "lookback_days": 120
         }
       },
       "accumulation_distribution": {
         "note": "cumulative from arbitrary start; level is meaningless, use direction only",
-        "latest_value": 676906447.5,
+        "latest_value": 677118093.58,
         "direction_20d": {
           "label": "falling",
-          "change": -94523612.14,
+          "change": -94311966.06,
           "lookback_days": 20
         },
         "direction_60d": {
           "label": "falling",
-          "change": -145039516.51,
+          "change": -144827870.42,
           "lookback_days": 60
         },
         "direction_120d": {
           "label": "falling",
-          "change": -106547297.76,
+          "change": -106335651.68,
           "lookback_days": 120
         }
       },
       "cmf": {
         "period": 20,
-        "value": -0.143276,
+        "value": -0.142913,
         "sign": "negative",
         "note": "bounded ~-1..+1; comparable across tickers"
       }
@@ -1095,7 +1095,7 @@
       "oldest_bar": "2025-08-22",
       "latest_bar": "2026-10-30",
       "price": 614.99,
-      "latest_volume": 25017839,
+      "latest_volume": 25295900,
       "moving_averages": {
         "sma_20": 691.1065,
         "price_vs_sma_20_pct": -11.01,
@@ -1107,55 +1107,55 @@
         "price_vs_sma_200_pct": -2.71
       },
       "average_volumes": {
-        "avg_volume_5": 34730528,
-        "avg_volume_20": 23128017,
-        "avg_volume_50": 22012723,
-        "avg_volume_100": 20080710
+        "avg_volume_5": 34786140,
+        "avg_volume_20": 23141920,
+        "avg_volume_50": 22018284,
+        "avg_volume_100": 20083491
       },
-      "volume_vs_20week_avg": 1.246,
-      "volume_vs_20day_avg": 1.082,
+      "volume_vs_20week_avg": 1.26,
+      "volume_vs_20day_avg": 1.093,
       "volume_spike_1_5x": false,
       "obv": {
         "note": "cumulative from arbitrary start; level is meaningless, use direction only",
-        "latest_value": -200980139,
+        "latest_value": -201258200,
         "direction_20d": {
           "label": "falling",
-          "change": -215992339,
+          "change": -216270400,
           "lookback_days": 20
         },
         "direction_60d": {
           "label": "rising",
-          "change": 10790061,
+          "change": 10512000,
           "lookback_days": 60
         },
         "direction_120d": {
           "label": "falling",
-          "change": -5944939,
+          "change": -6223000,
           "lookback_days": 120
         }
       },
       "accumulation_distribution": {
         "note": "cumulative from arbitrary start; level is meaningless, use direction only",
-        "latest_value": -219615736.29,
+        "latest_value": -219711798.74,
         "direction_20d": {
           "label": "falling",
-          "change": -115461473.43,
+          "change": -115557535.88,
           "lookback_days": 20
         },
         "direction_60d": {
           "label": "falling",
-          "change": -184746481.64,
+          "change": -184842544.09,
           "lookback_days": 60
         },
         "direction_120d": {
           "label": "falling",
-          "change": -161227609.87,
+          "change": -161323672.31,
           "lookback_days": 120
         }
       },
       "cmf": {
         "period": 20,
-        "value": -0.249614,
+        "value": -0.249671,
         "sign": "negative",
         "note": "bounded ~-1..+1; comparable across tickers"
       }
@@ -1166,7 +1166,7 @@
       "oldest_bar": "2025-08-22",
       "latest_bar": "2026-10-30",
       "price": 884.74,
-      "latest_volume": 30523122,
+      "latest_volume": 30762300,
       "moving_averages": {
         "sma_20": 950.609,
         "price_vs_sma_20_pct": -6.93,
@@ -1178,55 +1178,55 @@
         "price_vs_sma_200_pct": 18.47
       },
       "average_volumes": {
-        "avg_volume_5": 25933704,
-        "avg_volume_20": 26078526,
-        "avg_volume_50": 25727420,
-        "avg_volume_100": 36088999
+        "avg_volume_5": 25981540,
+        "avg_volume_20": 26090485,
+        "avg_volume_50": 25732204,
+        "avg_volume_100": 36091391
       },
-      "volume_vs_20week_avg": 0.846,
-      "volume_vs_20day_avg": 1.17,
+      "volume_vs_20week_avg": 0.852,
+      "volume_vs_20day_avg": 1.179,
       "volume_spike_1_5x": false,
       "obv": {
         "note": "cumulative from arbitrary start; level is meaningless, use direction only",
-        "latest_value": 1136877974,
+        "latest_value": 1136638796,
         "direction_20d": {
           "label": "falling",
-          "change": -92100322,
+          "change": -92339500,
           "lookback_days": 20
         },
         "direction_60d": {
           "label": "rising",
-          "change": 86787274,
+          "change": 86548096,
           "lookback_days": 60
         },
         "direction_120d": {
           "label": "falling",
-          "change": -8536726,
+          "change": -8775904,
           "lookback_days": 120
         }
       },
       "accumulation_distribution": {
         "note": "cumulative from arbitrary start; level is meaningless, use direction only",
-        "latest_value": 795809310.77,
+        "latest_value": 795813194.46,
         "direction_20d": {
           "label": "falling",
-          "change": -31959390.98,
+          "change": -31955507.29,
           "lookback_days": 20
         },
         "direction_60d": {
           "label": "rising",
-          "change": 48212839.37,
+          "change": 48216723.06,
           "lookback_days": 60
         },
         "direction_120d": {
           "label": "rising",
-          "change": 124143551.54,
+          "change": 124147435.23,
           "lookback_days": 120
         }
       },
       "cmf": {
         "period": 20,
-        "value": -0.061275,
+        "value": -0.06124,
         "sign": "negative",
         "note": "bounded ~-1..+1; comparable across tickers"
       }
@@ -1237,7 +1237,7 @@
       "oldest_bar": "2025-08-22",
       "latest_bar": "2026-10-30",
       "price": 399.81,
-      "latest_volume": 41578483,
+      "latest_volume": 41644400,
       "moving_averages": {
         "sma_20": 380.6975,
         "price_vs_sma_20_pct": 5.02,
@@ -1249,55 +1249,55 @@
         "price_vs_sma_200_pct": 3.77
       },
       "average_volumes": {
-        "avg_volume_5": 39691797,
-        "avg_volume_20": 36299709,
-        "avg_volume_50": 38075906,
-        "avg_volume_100": 39484295
+        "avg_volume_5": 39704980,
+        "avg_volume_20": 36303005,
+        "avg_volume_50": 38077224,
+        "avg_volume_100": 39484954
       },
-      "volume_vs_20week_avg": 1.053,
-      "volume_vs_20day_avg": 1.145,
+      "volume_vs_20week_avg": 1.055,
+      "volume_vs_20day_avg": 1.147,
       "volume_spike_1_5x": false,
       "obv": {
         "note": "cumulative from arbitrary start; level is meaningless, use direction only",
-        "latest_value": 1201551917,
+        "latest_value": 1201486000,
         "direction_20d": {
           "label": "falling",
-          "change": -71672383,
+          "change": -71738300,
           "lookback_days": 20
         },
         "direction_60d": {
           "label": "rising",
-          "change": 89178317,
+          "change": 89112400,
           "lookback_days": 60
         },
         "direction_120d": {
           "label": "falling",
-          "change": -208672883,
+          "change": -208738800,
           "lookback_days": 120
         }
       },
       "accumulation_distribution": {
         "note": "cumulative from arbitrary start; level is meaningless, use direction only",
-        "latest_value": 349253948.91,
+        "latest_value": 349174918.75,
         "direction_20d": {
           "label": "rising",
-          "change": 95518821.82,
+          "change": 95439791.67,
           "lookback_days": 20
         },
         "direction_60d": {
           "label": "rising",
-          "change": 67585226.2,
+          "change": 67506196.05,
           "lookback_days": 60
         },
         "direction_120d": {
           "label": "falling",
-          "change": -57775118.33,
+          "change": -57854148.48,
           "lookback_days": 120
         }
       },
       "cmf": {
         "period": 20,
-        "value": 0.13157,
+        "value": 0.131449,
         "sign": "positive",
         "note": "bounded ~-1..+1; comparable across tickers"
       }
@@ -1308,7 +1308,7 @@
       "oldest_bar": "2025-08-22",
       "latest_bar": "2026-10-30",
       "price": 184.11,
-      "latest_volume": 26955616,
+      "latest_volume": 27007300,
       "moving_averages": {
         "sma_20": 197.2455,
         "price_vs_sma_20_pct": -6.66,
@@ -1320,55 +1320,55 @@
         "price_vs_sma_200_pct": 19.89
       },
       "average_volumes": {
-        "avg_volume_5": 20833503,
-        "avg_volume_20": 23051056,
-        "avg_volume_50": 24893070,
-        "avg_volume_100": 34001988
+        "avg_volume_5": 20843840,
+        "avg_volume_20": 23053640,
+        "avg_volume_50": 24894104,
+        "avg_volume_100": 34002505
       },
-      "volume_vs_20week_avg": 0.793,
-      "volume_vs_20day_avg": 1.169,
+      "volume_vs_20week_avg": 0.794,
+      "volume_vs_20day_avg": 1.171,
       "volume_spike_1_5x": false,
       "obv": {
         "note": "cumulative from arbitrary start; level is meaningless, use direction only",
-        "latest_value": 564016484,
+        "latest_value": 563964800,
         "direction_20d": {
           "label": "falling",
-          "change": -41100516,
+          "change": -41152200,
           "lookback_days": 20
         },
         "direction_60d": {
           "label": "rising",
-          "change": 130931084,
+          "change": 130879400,
           "lookback_days": 60
         },
         "direction_120d": {
           "label": "rising",
-          "change": 224377984,
+          "change": 224326300,
           "lookback_days": 120
         }
       },
       "accumulation_distribution": {
         "note": "cumulative from arbitrary start; level is meaningless, use direction only",
-        "latest_value": 875954136.5,
+        "latest_value": 887234903.9,
         "direction_20d": {
           "label": "rising",
-          "change": 28120456.61,
+          "change": 39401224.02,
           "lookback_days": 20
         },
         "direction_60d": {
           "label": "rising",
-          "change": 162271295.73,
+          "change": 173552063.14,
           "lookback_days": 60
         },
         "direction_120d": {
           "label": "rising",
-          "change": 352171466.43,
+          "change": 363452233.83,
           "lookback_days": 120
         }
       },
       "cmf": {
         "period": 20,
-        "value": 0.060996,
+        "value": 0.085456,
         "sign": "positive",
         "note": "bounded ~-1..+1; comparable across tickers"
       }
@@ -1379,7 +1379,7 @@
       "oldest_bar": "2025-08-22",
       "latest_bar": "2026-10-30",
       "price": 522.49,
-      "latest_volume": 17300090,
+      "latest_volume": 17570300,
       "moving_averages": {
         "sma_20": 569.9005,
         "price_vs_sma_20_pct": -8.32,
@@ -1391,55 +1391,55 @@
         "price_vs_sma_200_pct": 0.58
       },
       "average_volumes": {
-        "avg_volume_5": 9625798,
-        "avg_volume_20": 9326954,
-        "avg_volume_50": 7552166,
-        "avg_volume_100": 9395008
+        "avg_volume_5": 9679840,
+        "avg_volume_20": 9340465,
+        "avg_volume_50": 7557570,
+        "avg_volume_100": 9397710
       },
-      "volume_vs_20week_avg": 1.841,
-      "volume_vs_20day_avg": 1.855,
+      "volume_vs_20week_avg": 1.87,
+      "volume_vs_20day_avg": 1.881,
       "volume_spike_1_5x": true,
       "obv": {
         "note": "cumulative from arbitrary start; level is meaningless, use direction only",
-        "latest_value": 165675010,
+        "latest_value": 165404800,
         "direction_20d": {
           "label": "falling",
-          "change": -82968090,
+          "change": -83238300,
           "lookback_days": 20
         },
         "direction_60d": {
           "label": "falling",
-          "change": -21740590,
+          "change": -22010800,
           "lookback_days": 60
         },
         "direction_120d": {
           "label": "falling",
-          "change": -118705990,
+          "change": -118976200,
           "lookback_days": 120
         }
       },
       "accumulation_distribution": {
         "note": "cumulative from arbitrary start; level is meaningless, use direction only",
-        "latest_value": 165699370.24,
+        "latest_value": 165676899.93,
         "direction_20d": {
           "label": "falling",
-          "change": -14252251.74,
+          "change": -14274722.05,
           "lookback_days": 20
         },
         "direction_60d": {
           "label": "falling",
-          "change": -10340265.55,
+          "change": -10362735.85,
           "lookback_days": 60
         },
         "direction_120d": {
           "label": "falling",
-          "change": -23649970.6,
+          "change": -23672440.91,
           "lookback_days": 120
         }
       },
       "cmf": {
         "period": 20,
-        "value": -0.076404,
+        "value": -0.076413,
         "sign": "negative",
         "note": "bounded ~-1..+1; comparable across tickers"
       }
@@ -1450,7 +1450,7 @@
       "oldest_bar": "2025-08-22",
       "latest_bar": "2026-10-30",
       "price": 56.93,
-      "latest_volume": 10039096,
+      "latest_volume": 10042900,
       "moving_averages": {
         "sma_20": 55.585,
         "price_vs_sma_20_pct": 2.42,
@@ -1462,55 +1462,55 @@
         "price_vs_sma_200_pct": -7.63
       },
       "average_volumes": {
-        "avg_volume_5": 7345079,
-        "avg_volume_20": 7999325,
-        "avg_volume_50": 7738414,
-        "avg_volume_100": 6742039
+        "avg_volume_5": 7345840,
+        "avg_volume_20": 7999515,
+        "avg_volume_50": 7738490,
+        "avg_volume_100": 6742077
       },
-      "volume_vs_20week_avg": 1.489,
+      "volume_vs_20week_avg": 1.49,
       "volume_vs_20day_avg": 1.255,
       "volume_spike_1_5x": false,
       "obv": {
         "note": "cumulative from arbitrary start; level is meaningless, use direction only",
-        "latest_value": -58259696,
+        "latest_value": -58263500,
         "direction_20d": {
           "label": "rising",
-          "change": 35225904,
+          "change": 35222100,
           "lookback_days": 20
         },
         "direction_60d": {
           "label": "falling",
-          "change": -74501096,
+          "change": -74504900,
           "lookback_days": 60
         },
         "direction_120d": {
           "label": "falling",
-          "change": -131072996,
+          "change": -131076800,
           "lookback_days": 120
         }
       },
       "accumulation_distribution": {
         "note": "cumulative from arbitrary start; level is meaningless, use direction only",
-        "latest_value": -117405979.96,
+        "latest_value": -117497005.75,
         "direction_20d": {
           "label": "rising",
-          "change": 10946435.8,
+          "change": 10855410.01,
           "lookback_days": 20
         },
         "direction_60d": {
           "label": "falling",
-          "change": -68826566.37,
+          "change": -68917592.16,
           "lookback_days": 60
         },
         "direction_120d": {
           "label": "falling",
-          "change": -110370876.8,
+          "change": -110461902.59,
           "lookback_days": 120
         }
       },
       "cmf": {
         "period": 20,
-        "value": 0.068421,
+        "value": 0.06785,
         "sign": "positive",
         "note": "bounded ~-1..+1; comparable across tickers"
       }
@@ -1521,7 +1521,7 @@
       "oldest_bar": "2025-08-22",
       "latest_bar": "2026-10-30",
       "price": 155.12,
-      "latest_volume": 3976837,
+      "latest_volume": 3977100,
       "moving_averages": {
         "sma_20": 155.1153,
         "price_vs_sma_20_pct": 0.0,
@@ -1533,55 +1533,55 @@
         "price_vs_sma_200_pct": 21.45
       },
       "average_volumes": {
-        "avg_volume_5": 2828887,
-        "avg_volume_20": 2264452,
-        "avg_volume_50": 2148041,
-        "avg_volume_100": 3507421
+        "avg_volume_5": 2828940,
+        "avg_volume_20": 2264465,
+        "avg_volume_50": 2148046,
+        "avg_volume_100": 3507424
       },
       "volume_vs_20week_avg": 1.134,
       "volume_vs_20day_avg": 1.756,
       "volume_spike_1_5x": false,
       "obv": {
         "note": "cumulative from arbitrary start; level is meaningless, use direction only",
-        "latest_value": 39205163,
+        "latest_value": 39204900,
         "direction_20d": {
           "label": "rising",
-          "change": 775963,
+          "change": 775700,
           "lookback_days": 20
         },
         "direction_60d": {
           "label": "falling",
-          "change": -13139037,
+          "change": -13139300,
           "lookback_days": 60
         },
         "direction_120d": {
           "label": "falling",
-          "change": -8323537,
+          "change": -8323800,
           "lookback_days": 120
         }
       },
       "accumulation_distribution": {
         "note": "cumulative from arbitrary start; level is meaningless, use direction only",
-        "latest_value": -29635175.28,
+        "latest_value": -29635276.88,
         "direction_20d": {
           "label": "rising",
-          "change": 7443775.42,
+          "change": 7443673.82,
           "lookback_days": 20
         },
         "direction_60d": {
           "label": "rising",
-          "change": 7788869.95,
+          "change": 7788768.35,
           "lookback_days": 60
         },
         "direction_120d": {
           "label": "falling",
-          "change": -44897753.02,
+          "change": -44897854.62,
           "lookback_days": 120
         }
       },
       "cmf": {
         "period": 20,
-        "value": 0.164362,
+        "value": 0.164358,
         "sign": "positive",
         "note": "bounded ~-1..+1; comparable across tickers"
       }
@@ -1592,7 +1592,7 @@
       "oldest_bar": "2025-08-22",
       "latest_bar": "2026-10-30",
       "price": 93.94,
-      "latest_volume": 4956409,
+      "latest_volume": 4993500,
       "moving_averages": {
         "sma_20": 91.44,
         "price_vs_sma_20_pct": 2.73,
@@ -1604,55 +1604,55 @@
         "price_vs_sma_200_pct": -0.7
       },
       "average_volumes": {
-        "avg_volume_5": 4429062,
-        "avg_volume_20": 4422305,
-        "avg_volume_50": 4060298,
-        "avg_volume_100": 3638212
+        "avg_volume_5": 4436480,
+        "avg_volume_20": 4424160,
+        "avg_volume_50": 4061040,
+        "avg_volume_100": 3638583
       },
-      "volume_vs_20week_avg": 1.362,
-      "volume_vs_20day_avg": 1.121,
+      "volume_vs_20week_avg": 1.372,
+      "volume_vs_20day_avg": 1.129,
       "volume_spike_1_5x": false,
       "obv": {
         "note": "cumulative from arbitrary start; level is meaningless, use direction only",
-        "latest_value": -19943291,
+        "latest_value": -19906200,
         "direction_20d": {
           "label": "rising",
-          "change": 18306309,
+          "change": 18343400,
           "lookback_days": 20
         },
         "direction_60d": {
           "label": "falling",
-          "change": -54242691,
+          "change": -54205600,
           "lookback_days": 60
         },
         "direction_120d": {
           "label": "falling",
-          "change": -60552191,
+          "change": -60515100,
           "lookback_days": 120
         }
       },
       "accumulation_distribution": {
         "note": "cumulative from arbitrary start; level is meaningless, use direction only",
-        "latest_value": -52709234.55,
+        "latest_value": -52689376.37,
         "direction_20d": {
           "label": "rising",
-          "change": 3010794.15,
+          "change": 3030652.33,
           "lookback_days": 20
         },
         "direction_60d": {
           "label": "falling",
-          "change": -31764569.08,
+          "change": -31744710.9,
           "lookback_days": 60
         },
         "direction_120d": {
           "label": "falling",
-          "change": -49207929.02,
+          "change": -49188070.84,
           "lookback_days": 120
         }
       },
       "cmf": {
         "period": 20,
-        "value": 0.034041,
+        "value": 0.034251,
         "sign": "positive",
         "note": "bounded ~-1..+1; comparable across tickers"
       }
@@ -1663,7 +1663,7 @@
       "oldest_bar": "2025-08-22",
       "latest_bar": "2026-10-30",
       "price": 179.51,
-      "latest_volume": 19052106,
+      "latest_volume": 19172000,
       "moving_averages": {
         "sma_20": 190.859,
         "price_vs_sma_20_pct": -5.95,
@@ -1675,55 +1675,55 @@
         "price_vs_sma_200_pct": 5.88
       },
       "average_volumes": {
-        "avg_volume_5": 9913001,
-        "avg_volume_20": 9185565,
-        "avg_volume_50": 7832756,
-        "avg_volume_100": 8862858
+        "avg_volume_5": 9936980,
+        "avg_volume_20": 9191560,
+        "avg_volume_50": 7835154,
+        "avg_volume_100": 8864057
       },
-      "volume_vs_20week_avg": 2.15,
-      "volume_vs_20day_avg": 2.074,
+      "volume_vs_20week_avg": 2.163,
+      "volume_vs_20day_avg": 2.086,
       "volume_spike_1_5x": true,
       "obv": {
         "note": "cumulative from arbitrary start; level is meaningless, use direction only",
-        "latest_value": 497967094,
+        "latest_value": 497847200,
         "direction_20d": {
           "label": "falling",
-          "change": -48948506,
+          "change": -49068400,
           "lookback_days": 20
         },
         "direction_60d": {
           "label": "falling",
-          "change": -3993006,
+          "change": -4112900,
           "lookback_days": 60
         },
         "direction_120d": {
           "label": "falling",
-          "change": -63025906,
+          "change": -63145800,
           "lookback_days": 120
         }
       },
       "accumulation_distribution": {
         "note": "cumulative from arbitrary start; level is meaningless, use direction only",
-        "latest_value": 295671983.79,
+        "latest_value": 295667741.5,
         "direction_20d": {
           "label": "rising",
-          "change": 6169723.81,
+          "change": 6165481.52,
           "lookback_days": 20
         },
         "direction_60d": {
           "label": "rising",
-          "change": 20331321.16,
+          "change": 20327078.87,
           "lookback_days": 60
         },
         "direction_120d": {
           "label": "rising",
-          "change": 84367734.62,
+          "change": 84363492.33,
           "lookback_days": 120
         }
       },
       "cmf": {
         "period": 20,
-        "value": 0.033584,
+        "value": 0.033539,
         "sign": "positive",
         "note": "bounded ~-1..+1; comparable across tickers"
       }
@@ -1734,7 +1734,7 @@
       "oldest_bar": "2025-08-22",
       "latest_bar": "2026-10-30",
       "price": 43.43,
-      "latest_volume": 30290850,
+      "latest_volume": 30322000,
       "moving_averages": {
         "sma_20": 41.9485,
         "price_vs_sma_20_pct": 3.53,
@@ -1746,55 +1746,55 @@
         "price_vs_sma_200_pct": -1.97
       },
       "average_volumes": {
-        "avg_volume_5": 21023930,
-        "avg_volume_20": 28223748,
-        "avg_volume_50": 27523889,
-        "avg_volume_100": 23617118
+        "avg_volume_5": 21030160,
+        "avg_volume_20": 28225305,
+        "avg_volume_50": 27524512,
+        "avg_volume_100": 23617430
       },
-      "volume_vs_20week_avg": 1.283,
-      "volume_vs_20day_avg": 1.073,
+      "volume_vs_20week_avg": 1.284,
+      "volume_vs_20day_avg": 1.074,
       "volume_spike_1_5x": false,
       "obv": {
         "note": "cumulative from arbitrary start; level is meaningless, use direction only",
-        "latest_value": 337963550,
+        "latest_value": 337994700,
         "direction_20d": {
           "label": "rising",
-          "change": 123099750,
+          "change": 123130900,
           "lookback_days": 20
         },
         "direction_60d": {
           "label": "rising",
-          "change": 132118750,
+          "change": 132149900,
           "lookback_days": 60
         },
         "direction_120d": {
           "label": "rising",
-          "change": 111843550,
+          "change": 111874700,
           "lookback_days": 120
         }
       },
       "accumulation_distribution": {
         "note": "cumulative from arbitrary start; level is meaningless, use direction only",
-        "latest_value": -95309299.41,
+        "latest_value": -95597651.67,
         "direction_20d": {
           "label": "rising",
-          "change": 146294885.34,
+          "change": 146006533.08,
           "lookback_days": 20
         },
         "direction_60d": {
           "label": "rising",
-          "change": 67722425.73,
+          "change": 67434073.47,
           "lookback_days": 60
         },
         "direction_120d": {
           "label": "falling",
-          "change": -53031733.22,
+          "change": -53320085.48,
           "lookback_days": 120
         }
       },
       "cmf": {
         "period": 20,
-        "value": 0.25917,
+        "value": 0.258645,
         "sign": "positive",
         "note": "bounded ~-1..+1; comparable across tickers"
       }
