@@ -1,35 +1,35 @@
 # Market data snapshot
 
-**Generated:** 2026-10-31T15:15:25+00:00  
+**Generated:** 2026-11-07T01:49:15+00:00  
 **Source:** Twelve Data API via GitHub Actions  
 **Tickers OK:** 24 / 24
 
 | Ticker | Price | 50d MA | 100d MA | 200d MA | vs 200d | Vol vs 20wk | OBV 20d | A/D 20d | CMF(20) |
 |---|---|---|---|---|---|---|---|---|---|
-| **AAPL** | 344.63 | 333.04 | 321.45 | 296.56 | +16.21% | 1.39x | rising | rising | +0.0001 |
-| **AMD** | 504.80 | 548.29 | 529.05 | 410.49 | +22.98% | 1.63x 🔺 | falling | rising | +0.0638 |
-| **AMZN** | 240.35 | 254.28 | 251.80 | 243.40 | -1.25% | 2.36x 🔺 | falling | rising | +0.0961 |
-| **BLK** | 1,147.54 | 1,103.80 | 1,084.27 | 1,063.65 | +7.89% | 0.94x | rising | rising | +0.0463 |
-| **BRK.B** | 542.49 | 515.11 | 507.63 | 495.74 | +9.43% | 0.99x | rising | rising | +0.0362 |
-| **CAT** | 622.75 | 783.30 | 844.71 | 809.91 | -23.11% | 1.75x 🔺 | falling | falling | -0.0887 |
-| **GOOGL** | 279.84 | 339.07 | 345.54 | 340.66 | -17.85% | 2.17x 🔺 | falling | falling | -0.1429 |
-| **INTC** | 65.76 | 101.11 | 104.81 | 86.86 | -24.30% | 4.00x 🔺 | falling | falling | -0.1233 |
-| **META** | 614.99 | 669.98 | 631.70 | 632.10 | -2.71% | 1.26x | falling | falling | -0.2497 |
-| **MSFT** | 521.91 | 512.91 | 465.52 | 437.93 | +19.18% | 1.15x | falling | rising | +0.0058 |
-| **MU** | 884.74 | 978.71 | 970.90 | 746.83 | +18.47% | 0.85x | falling | falling | -0.0612 |
-| **NVDA** | 204.64 | 221.75 | 214.52 | 204.38 | +0.12% | 1.36x | falling | falling | -0.1425 |
-| **O** | 56.93 | 57.50 | 60.34 | 61.63 | -7.63% | 1.49x | rising | rising | +0.0678 |
-| **PLTR** | 184.11 | 186.90 | 162.42 | 153.57 | +19.89% | 0.79x | falling | rising | +0.0855 |
-| **QQQ** | 690.49 | 725.00 | 719.02 | 679.52 | +1.61% | 2.21x 🔺 | falling | falling | -0.0207 |
-| **ROKU** | 155.12 | 155.15 | 149.22 | 127.73 | +21.45% | 1.13x | rising | rising | +0.1644 |
-| **SCHD** | 35.78 | 34.13 | 33.57 | 32.35 | +10.60% | 1.24x | rising | rising | +0.2745 |
-| **SMH** | 522.49 | 572.62 | 581.06 | 519.50 | +0.58% | 1.87x 🔺 | falling | falling | -0.0764 |
-| **SPY** | 755.72 | 767.49 | 759.22 | 728.85 | +3.69% | 1.68x 🔺 | falling | rising | +0.0459 |
-| **TSLA** | 399.81 | 369.60 | 367.92 | 385.30 | +3.77% | 1.05x | falling | rising | +0.1314 |
-| **UNH** | 406.97 | 390.20 | 402.17 | 362.76 | +12.19% | 0.80x | falling | falling | -0.0583 |
-| **VNQ** | 93.94 | 93.18 | 95.70 | 94.61 | -0.70% | 1.37x | rising | rising | +0.0343 |
-| **XLK** | 179.51 | 189.69 | 186.30 | 169.54 | +5.88% | 2.16x 🔺 | falling | rising | +0.0335 |
-| **XLU** | 43.43 | 41.75 | 43.30 | 44.30 | -1.97% | 1.28x | rising | rising | +0.2586 |
+| **AAPL** | 342.37 | 336.01 | 323.77 | 298.81 | +14.58% | 0.88x | falling | falling | -0.0769 |
+| **AMD** | 449.04 | 546.81 | 526.91 | 415.98 | +7.95% | 1.81x 🔺 | falling | falling | -0.1690 |
+| **AMZN** | 259.30 | 253.95 | 252.52 | 243.94 | +6.30% | 0.91x | falling | falling | -0.0615 |
+| **BLK** | 1,178.87 | 1,104.92 | 1,091.75 | 1,064.68 | +10.73% | 0.75x | rising | falling | -0.0481 |
+| **BRK.B** | 570.89 | 521.56 | 511.49 | 497.72 | +14.70% | 1.17x | rising | rising | +0.0185 |
+| **CAT** | 558.63 | 760.34 | 828.68 | 808.53 | -30.91% | 1.53x 🔺 | falling | falling | -0.2108 |
+| **GOOGL** | 284.78 | 332.93 | 341.52 | 339.51 | -16.12% | 1.17x | falling | falling | -0.2687 |
+| **INTC** | 56.28 | 97.95 | 101.75 | 87.04 | -35.34% | 1.49x | falling | falling | -0.1753 |
+| **META** | 610.15 | 674.92 | 633.43 | 631.94 | -3.45% | 0.77x | falling | falling | -0.2849 |
+| **MSFT** | 530.61 | 516.65 | 472.30 | 439.85 | +20.64% | 0.85x | falling | rising | +0.0020 |
+| **MU** | 690.00 | 961.64 | 959.42 | 756.73 | -8.82% | 1.25x | falling | falling | -0.2403 |
+| **NVDA** | 186.64 | 219.81 | 213.99 | 204.67 | -8.81% | 1.44x | falling | falling | -0.3344 |
+| **O** | 59.04 | 57.10 | 60.15 | 61.56 | -4.10% | 0.88x | rising | rising | +0.1130 |
+| **PLTR** | 160.38 | 185.88 | 164.26 | 153.53 | +4.46% | 0.71x | falling | falling | -0.0212 |
+| **QQQ** | 656.10 | 720.97 | 716.58 | 680.89 | -3.64% | 1.78x 🔺 | falling | falling | -0.2865 |
+| **ROKU** | 160.52 | 155.33 | 150.62 | 129.11 | +24.33% | 3.64x 🔺 | rising | rising | +0.0311 |
+| **SCHD** | 35.17 | 34.19 | 33.73 | 32.52 | +8.16% | 1.24x | rising | rising | +0.1715 |
+| **SMH** | 463.96 | 565.64 | 574.86 | 521.76 | -11.08% | 1.75x 🔺 | falling | falling | -0.2452 |
+| **SPY** | 735.29 | 765.68 | 759.53 | 730.38 | +0.67% | 1.26x | falling | falling | -0.2585 |
+| **TSLA** | 358.22 | 372.14 | 366.78 | 383.87 | -6.68% | 0.93x | falling | rising | +0.0033 |
+| **UNH** | 394.15 | 390.65 | 401.81 | 364.23 | +8.21% | 1.06x | falling | falling | -0.0238 |
+| **VNQ** | 95.73 | 92.92 | 95.60 | 94.72 | +1.06% | 0.98x | rising | rising | +0.0776 |
+| **XLK** | 164.74 | 188.45 | 185.61 | 170.20 | -3.21% | 2.21x 🔺 | falling | falling | -0.2338 |
+| **XLU** | 43.13 | 41.77 | 43.25 | 44.31 | -2.67% | 1.11x | rising | rising | +0.1337 |
 
 ## Validation vs Twelve Data's own OBV / AD endpoints
 
@@ -37,8 +37,8 @@ Absolute levels are expected to differ (both are cumulative from an arbitrary
 start). Only DIRECTION must agree. A mismatch means something is wrong.
 
 - **AAPL** — ✅ pass
-  - `obv`: ours **rising** vs theirs **rising**
-  - `ad`: ours **rising** vs theirs **rising**
+  - `obv`: ours **falling** vs theirs **falling**
+  - `ad`: ours **falling** vs theirs **falling**
 - **QQQ** — ✅ pass
   - `obv`: ours **falling** vs theirs **falling**
   - `ad`: ours **falling** vs theirs **falling**
